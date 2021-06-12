@@ -9,24 +9,24 @@
 
     <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/gradient" android:id="@+id/imageButton"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/displaybutton" android:id="@+id/imageButton"
             tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="26dp"
-            android:layout_alignParentBottom="true" android:layout_marginBottom="168dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="127dp"
             android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
-            android:layout_marginRight="15dp" android:layout_marginEnd="15dp"/>
+            android:layout_marginRight="-1dp" android:layout_marginEnd="-1dp"/>
     <TextView
             android:id="@+id/word2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="166dp"
-            android:layout_marginLeft="166dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginLeft="168dp"
             android:layout_marginTop="40dp"
             android:text="Word"
             android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sentence" android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
-            android:layout_marginBottom="642dp"/>
+            android:layout_marginBottom="644dp"/>
     <TextView
             android:id="@+id/partsOfSpeech"
             android:layout_width="wrap_content"
@@ -72,13 +72,13 @@
             android:id="@+id/sentence"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="183dp"
-            android:layout_marginLeft="183dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginLeft="179dp"
             android:layout_marginTop="15dp"
             android:text="Sentence"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/definition" android:layout_alignParentBottom="true"
-            android:layout_marginBottom="521dp" android:layout_alignParentStart="true"
+            android:layout_marginBottom="520dp" android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"/>
     <Button
             android:id="@+id/showhide"

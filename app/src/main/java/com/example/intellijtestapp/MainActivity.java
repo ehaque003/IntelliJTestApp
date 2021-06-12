@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
         //Word, Phonetics, Pronunciation, Definition, Parts of Speech, Sentence
 //        System.out.println(infoonword);
         word.setText(infoonword[0]);
-        prononuciation.setText(infoonword[1]);
+//        prononuciation.setText(infoonword[1]);
         definition.setText(infoonword[3]);
         partsofspeech.setText(infoonword[4]);
         sentence.setText(infoonword[5]);
